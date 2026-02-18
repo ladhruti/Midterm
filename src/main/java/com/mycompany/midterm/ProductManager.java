@@ -13,9 +13,11 @@ public class ProductManager {
      public static void main(String[] args) {
         System.out.println("Product Manager running");
     }
+     // This method calculates the final price after applying a percentage discount.
+
      public double calculateDiscount(double price, double percent) {
     return price - (price * percent / 100);
 }
-
+     
     
 }
